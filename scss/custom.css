@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap");
+body {
+  font-family: "Lexend", "Tiro Devanagari Hindi", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.lexend-100 {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.shade-1 {
+  background-color: #1b252c;
+  color: #bce1fa;
+}
+
+.shade-2 {
+  background-color: #1b252c;
+  color: #3182b8;
+}
+
+.shade-3 {
+  background-color: #1b252c;
+  color: white;
+}/*# sourceMappingURL=custom.css.map */
