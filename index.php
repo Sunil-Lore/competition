@@ -11,14 +11,9 @@
 <body>
     <div class="container-fluid">
         <div style="height:250px;margin:auto;" class="shade-1">
-        <h1 class="lexend-100">Welcome</h1>
-        </div>
-        <div style="height:250px;margin:auto;" class="shade-2">
         <h1>Welcome</h1>
         </div>
-        <div style="height:250px;margin:auto;" class="shade-3">
-        <h1>Welcome</h1>
-        </div>
+
 
 
 
