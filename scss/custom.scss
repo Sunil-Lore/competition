@@ -7,31 +7,10 @@ body{
 
 @import "colors";
 
-.lexend {
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-
-.lexend-100 {
-    @extend .lexend;
-    font-weight: 100;
-
-  }
-  .lexend-300 {
-    @extend .lexend;
-    font-weight: 300;
-
-  }
-  .lexend-500 {
-    @extend .lexend;
-    font-weight: 100;
-
-  }
 .shade-1{
     background-color:$dark-blue;
     color:$sky-blue;
-    @extend .lexend-100;
+    font-weight:100;
 
 }
 .shade-2{

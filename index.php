@@ -11,7 +11,7 @@
 <body>
     <div class="container-fluid">
         <div style="height:250px;margin:auto;" class="shade-1">
-        <h1>Welcome</h1>
+        <p class="fs-68">Welcome</p>
         </div>
 
 
