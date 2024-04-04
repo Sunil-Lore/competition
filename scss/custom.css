@@ -58,4 +58,36 @@ body {
 
 .light-shade-2 {
   color: #1b252c;
+}
+
+.sky-shade, .sky-shade-3, .sky-shade-2, .sky-shade-1 {
+  background-color: #bce1fa;
+}
+
+.sky-shade-1 {
+  color: black;
+}
+
+.sky-shade-2 {
+  color: #1b252c;
+}
+
+.sky-shade-3 {
+  color: #0f4c76;
+}
+
+.white-shade, .white-shade-3, .white-shade-2, .white-shade-1 {
+  background-color: white;
+}
+
+.white-shade-1 {
+  color: black;
+}
+
+.white-shade-2 {
+  color: #1b252c;
+}
+
+.white-shade-3 {
+  color: #0f4c76;
 }/*# sourceMappingURL=custom.css.map */

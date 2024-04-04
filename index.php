@@ -40,6 +40,24 @@
         <div style="height:125px;margin:auto;" class="light-shade-2">
         <p class="fs-58">dark blue on light blue</p>
         </div>
+        <div style="height:125px;margin:auto;" class="sky-shade-1">
+        <p class="fs-58">black on sky blue</p>
+        </div>
+        <div style="height:125px;margin:auto;" class="sky-shade-2">
+        <p class="fs-58">dark blue on sky blue</p>
+        </div>
+        <div style="height:125px;margin:auto;" class="sky-shade-3">
+        <p class="fs-58">normal blue on sky blue</p>
+        </div>
+        <div style="height:125px;margin:auto;" class="white-shade-1">
+        <p class="fs-58">black on white</p>
+        </div>
+        <div style="height:125px;margin:auto;" class="white-shade-2">
+        <p class="fs-58">dark blue on white</p>
+        </div>
+        <div style="height:125px;margin:auto;" class="white-shade-3">
+        <p class="fs-58">normal blue on white</p>
+        </div>
 
 
 

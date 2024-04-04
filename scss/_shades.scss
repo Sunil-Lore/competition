@@ -51,3 +51,36 @@
     @extend .light-shade;
     color:$dark-blue;
 }
+.sky-shade{
+    background-color:$sky-blue;
+}
+.sky-shade-1{
+    @extend .sky-shade;
+    color:black;
+}
+.sky-shade-2{
+    @extend .sky-shade;
+    color:$dark-blue;
+}
+.sky-shade-3{
+    @extend .sky-shade;
+    color:$normal-blue;
+}
+
+// White Shade
+
+.white-shade{
+    background-color:white;
+}
+.white-shade-1{
+    @extend .white-shade;
+    color:black;
+}
+.white-shade-2{
+    @extend .white-shade;
+    color:$dark-blue;
+}
+.white-shade-3{
+    @extend .white-shade;
+    color:$normal-blue;
+}
