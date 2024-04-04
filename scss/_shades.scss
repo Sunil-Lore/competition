@@ -1,86 +1,71 @@
-.black-shade{
+.mybutton{
+    padding:10px 15px;
+    border-radius:7px;
+}
+
+.white-on-black{
     background-color:black;
-}
-.black-shade-1{
-    @extend .black-shade;
-    color:$sky-blue;
-}
-.black-shade-2{
-    @extend .black-shade;
-    color:$light-blue;
-}
-.black-shade-3{
-    @extend .black-shade;
     color:white;
+    a{
+        background-color:white;
+        color:black;
+        @extend .mybutton;
+        border:2px solid white;
+        font-size:16px;
+        margin:10px;
+    }
+    a:hover{
+        background-color:black;
+        color:white;
+    }
 }
 
-.dark-shade{
+.white-on-darkblue{
     background-color:$dark-blue;
-}
-.dark-shade-1{
-    @extend .dark-shade;
-    color:$sky-blue;
-}
-.dark-shade-2{
-    @extend .dark-shade;
-    color:$light-blue;
-}
-.dark-shade-3{
-    @extend .dark-shade;
     color:white;
+    a{
+        background-color:white;
+        color:$dark-blue;
+        @extend .mybutton;
+        border:2px solid white;
+        font-size:16px;
+        margin:10px;
+    }
+    a:hover{
+        background-color:$dark-blue;
+        color:white;
+    }
 }
-.normal-shade{
+.white-on-normalblue{
     background-color:$normal-blue;
-}
-.normal-shade-1{
-    @extend .normal-shade;
-    color:$sky-blue;
-}
-.normal-shade-2{
-    @extend .normal-shade;
     color:white;
+    a{
+        background-color:white;
+        color:$dark-blue;
+        @extend .mybutton;
+        border:2px solid white;
+        font-size:16px;
+        margin:10px;
+    }
+    a:hover{
+        background-color:$dark-blue;
+        color:white;
+    }
 }
-.light-shade{
+
+.black-on-lightblue{
     background-color:$light-blue;
-}
-.light-shade-1{
-    @extend .light-shade;
     color:black;
 }
-.light-shade-2{
-    @extend .light-shade;
-    color:$dark-blue;
-}
-.sky-shade{
+
+.black-on-skyblue{
     background-color:$sky-blue;
-}
-.sky-shade-1{
-    @extend .sky-shade;
     color:black;
 }
-.sky-shade-2{
-    @extend .sky-shade;
-    color:$dark-blue;
-}
-.sky-shade-3{
-    @extend .sky-shade;
-    color:$normal-blue;
-}
 
-// White Shade
-
-.white-shade{
+.black-on-white{
     background-color:white;
-}
-.white-shade-1{
-    @extend .white-shade;
     color:black;
 }
-.white-shade-2{
-    @extend .white-shade;
-    color:$dark-blue;
-}
-.white-shade-3{
-    @extend .white-shade;
-    color:$normal-blue;
-}
+
+
