@@ -4,18 +4,58 @@ body {
   font-optical-sizing: auto;
 }
 
-.shade-1 {
-  background-color: #1b252c;
-  color: #bce1fa;
-  font-weight: 100;
+.black-shade, .black-shade-3, .black-shade-2, .black-shade-1 {
+  background-color: black;
 }
 
-.shade-2 {
-  background-color: #1b252c;
+.black-shade-1 {
+  color: #bce1fa;
+}
+
+.black-shade-2 {
   color: #3182b8;
 }
 
-.shade-3 {
-  background-color: #1b252c;
+.black-shade-3 {
   color: white;
+}
+
+.dark-shade, .dark-shade-3, .dark-shade-2, .dark-shade-1 {
+  background-color: #1b252c;
+}
+
+.dark-shade-1 {
+  color: #bce1fa;
+}
+
+.dark-shade-2 {
+  color: #3182b8;
+}
+
+.dark-shade-3 {
+  color: white;
+}
+
+.normal-shade, .normal-shade-2, .normal-shade-1 {
+  background-color: #0f4c76;
+}
+
+.normal-shade-1 {
+  color: #bce1fa;
+}
+
+.normal-shade-2 {
+  color: white;
+}
+
+.light-shade, .light-shade-2, .light-shade-1 {
+  background-color: #3182b8;
+}
+
+.light-shade-1 {
+  color: black;
+}
+
+.light-shade-2 {
+  color: #1b252c;
 }/*# sourceMappingURL=custom.css.map */

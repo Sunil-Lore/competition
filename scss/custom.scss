@@ -5,19 +5,7 @@ body{
     font-optical-sizing: auto;
 }
 
-@import "colors";
+@import "colors","blocks";
 
-.shade-1{
-    background-color:$dark-blue;
-    color:$sky-blue;
-    font-weight:100;
 
-}
-.shade-2{
-    background-color:$dark-blue;
-    color:$light-blue;
-}
-.shade-3{
-    background-color:$dark-blue;
-    color:white;
-}
+

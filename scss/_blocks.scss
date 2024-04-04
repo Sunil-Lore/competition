@@ -1,0 +1,53 @@
+.black-shade{
+    background-color:black;
+}
+.black-shade-1{
+    @extend .black-shade;
+    color:$sky-blue;
+}
+.black-shade-2{
+    @extend .black-shade;
+    color:$light-blue;
+}
+.black-shade-3{
+    @extend .black-shade;
+    color:white;
+}
+
+.dark-shade{
+    background-color:$dark-blue;
+}
+.dark-shade-1{
+    @extend .dark-shade;
+    color:$sky-blue;
+}
+.dark-shade-2{
+    @extend .dark-shade;
+    color:$light-blue;
+}
+.dark-shade-3{
+    @extend .dark-shade;
+    color:white;
+}
+.normal-shade{
+    background-color:$normal-blue;
+}
+.normal-shade-1{
+    @extend .normal-shade;
+    color:$sky-blue;
+}
+.normal-shade-2{
+    @extend .normal-shade;
+    color:white;
+}
+.light-shade{
+    background-color:$light-blue;
+}
+.light-shade-1{
+    @extend .light-shade;
+    color:black;
+}
+.light-shade-2{
+    @extend .light-shade;
+    color:$dark-blue;
+}
